@@ -10,7 +10,7 @@ Unpinned tabs are unchanged.
 
 ## Install
 
-Copy `main.js`, `manifest.json` and `styles.css` into `<vault>/.obsidian/plugins/compact-pinned-tabs/`, then enable **Compact Pinned Tabs** under Settings → Community plugins.
+Download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/himanshugupta2077/obsidian-compact-pinned-tabs/releases/latest) into `<vault>/.obsidian/plugins/compact-pinned-tabs/`, then enable **Compact Pinned Tabs** under Settings → Community plugins.
 
 ## Development
 
