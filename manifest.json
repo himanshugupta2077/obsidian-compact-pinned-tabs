@@ -1,0 +1,10 @@
+{
+	"id": "compact-pinned-tabs",
+	"name": "Compact Pinned Tabs",
+	"version": "1.0.0",
+	"minAppVersion": "1.8.7",
+	"description": "Pinned tabs shrink to fit their title, drop the pin icon, and can't be closed with the close-tab hotkey.",
+	"author": "Himanshu Gupta",
+	"authorUrl": "https://github.com/himanshugupta2077",
+	"isDesktopOnly": false
+}

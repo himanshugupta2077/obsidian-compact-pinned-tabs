@@ -1,0 +1,15 @@
+/*
+ * Pinned tabs: as wide as their title, never stretched to fill the tab bar.
+ * Obsidian makes tab headers inline-size containers, which stops content from sizing them, so turn that off too.
+ */
+.workspace .mod-root .workspace-tab-header:has(.workspace-tab-header-status-icon.mod-pinned) {
+	container-type: normal;
+	flex: 0 0 auto;
+	width: auto;
+	max-width: none;
+}
+
+/* Drop the pin icon (unpin from the tab's right-click menu instead). */
+.workspace-tab-header-status-icon.mod-pinned {
+	display: none;
+}

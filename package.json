@@ -1,0 +1,32 @@
+{
+	"name": "obsidian-compact-pinned-tabs",
+	"version": "1.0.0",
+	"description": "Pinned tabs shrink to fit their title, drop the pin icon, and can't be closed with the close-tab hotkey.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"lint": "eslint ."
+	},
+	"keywords": [
+		"obsidian",
+		"plugin",
+		"tabs",
+		"pinned tabs"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/himanshugupta2077/obsidian-compact-pinned-tabs.git"
+	},
+	"devDependencies": {
+		"esbuild": "0.25.5",
+		"eslint": "^9.39.5",
+		"eslint-plugin-obsidianmd": "^0.4.2",
+		"obsidian": "latest",
+		"tslib": "2.4.0",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.72.0"
+	}
+}
