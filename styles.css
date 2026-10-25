@@ -13,3 +13,29 @@
 .workspace-tab-header-status-icon.mod-pinned {
 	display: none;
 }
+
+/*
+ * Mobile tab switcher: pinned tabs come first and stand out.
+ * Obsidian marks a card as pinned only by showing its pin badge, so match on that.
+ */
+.mobile-tab:has(.mobile-tab-pin:not([style*="display: none"])) {
+	order: -1;
+}
+
+.mobile-tab:has(.mobile-tab-pin:not([style*="display: none"])) .mobile-tab-preview {
+	box-shadow: 0 0 0 2px var(--interactive-accent);
+}
+
+.mobile-tab:not(.is-active):has(.mobile-tab-pin:not([style*="display: none"])) .mobile-tab-preview {
+	box-shadow: 0 0 0 1px var(--interactive-accent);
+}
+
+.mobile-tab .mobile-tab-pin {
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.mobile-tab:has(.mobile-tab-pin:not([style*="display: none"])) .mobile-tab-title {
+	color: var(--text-accent);
+	font-weight: var(--font-semibold);
+}

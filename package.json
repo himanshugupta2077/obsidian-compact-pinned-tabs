@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-compact-pinned-tabs",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Pinned tabs shrink to fit their title, drop the pin icon, and can't be closed with the close-tab hotkey.",
 	"main": "main.js",
 	"type": "module",

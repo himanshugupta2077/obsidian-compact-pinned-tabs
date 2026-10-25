@@ -6,6 +6,8 @@ Makes Obsidian's pinned tabs behave more like browser pinned tabs:
 - **No pin icon.** The pin icon on pinned tabs is hidden. Unpin from the tab's right-click menu.
 - **Close-tab hotkey ignores them.** Cmd/Ctrl+W does nothing on a pinned tab. Normally Obsidian unpins it on desktop and closes it on phones.
 
+On phones, which have no tab bar, the tab switcher puts pinned tabs first and marks them with an accent outline, an accent pin badge and an accent title.
+
 Unpinned tabs are unchanged.
 
 ## Install
